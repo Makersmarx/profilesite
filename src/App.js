@@ -6,9 +6,9 @@ import './index.css';
 const App = () => {
   return (
     <div>
-      <header>
+      {/* <header>
         <h1></h1>
-      </header>
+      </header> */}
       <AboutMe />
     </div>
   );
