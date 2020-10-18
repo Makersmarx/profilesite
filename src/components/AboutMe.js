@@ -30,7 +30,7 @@ const AboutMe = () => {
           />
           <FaLinkedin
             onClick={() => {
-              window.open('https://www.Linkedin.com');
+              window.open('https://www.linkedin.com/in/robert-b-8123891b6');
             }}
           />
           <FaJs
