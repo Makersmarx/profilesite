@@ -46,11 +46,20 @@ mark {
 }
 
 .icons {
-  margin-left: 40px;
-  padding-top: 15px;
+  /* margin-left: 40px; */
+  padding-top: 55px;
   display: flex;
   justify-content: center;
 }
+
+/* .card {
+  display: inline-block;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+} */
 
 @media screen and (max-width: 600px) {
   a {
