@@ -3,39 +3,28 @@ body {
   margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* header {
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-} */
-
-/* a {
-  padding: 30px;
-  color: #ff8a00;
-  text-decoration: none;
-  font-size: 22px;
-} */
-
 .greeting {
-  margin-top: 135px;
+  margin-top: 100px;
   font-size: 65px;
   padding-left: 150px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  color: #878e88;
 }
 
 mark {
   padding-right: 5px;
-  color: #d6cfc6;
+  color: #f7cb15;
   text-decoration: none;
   background: none;
 }
 
 .func {
   padding-left: 10%;
-  color: #ff8a00;
+  color: #ff6600;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -47,20 +36,79 @@ mark {
 }
 
 .icons {
-  /* margin-left: 40px; */
-  padding-top: 55px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: center;
 }
 
-/* .card {
-  display: inline-block;
-  border: 1px solid #eee;
-  box-shadow: 0 2px 2px #ccc;
-  width: 200px;
-  padding: 20px;
-  margin: 20px;
-} */
+.icons:hover {
+  cursor: pointer;
+}
+
+.nav {
+  /* background-color: var(--off-white); */
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  /* box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15); */
+}
+
+.nav-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #f7cb15;
+}
+
+.nav-item:hover {
+  color: #d6cfc6;
+  cursor: pointer;
+}
+
+.nav-item > .active {
+  border-bottom: 1px solid #ff6600;
+}
+
+.section {
+  margin-top: 165px;
+  color: white;
+  white-space: pre-wrap;
+}
+
+.section-dark {
+  background: #33312e;
+  color: white;
+}
+
+.section-content > h1 {
+  color: #f7cb15;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
 
 @media screen and (max-width: 600px) {
   body {

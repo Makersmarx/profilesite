@@ -1,6 +1,4 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaJs, FaReact } from 'react-icons/fa';
-import { IconContext } from 'react-icons';
 
 const AboutMe = () => {
   return (
@@ -19,34 +17,6 @@ const AboutMe = () => {
         and sharing of knowledge.
       </h2>
       <h1 className="func">{`}`}</h1>
-      <IconContext.Provider
-        value={{ style: { fontSize: '30px', color: '#d6cfc6' } }}
-      >
-        <div className="icons">
-          <FaGithub
-            onClick={() => {
-              window.open('https://github.com/Makersmarx');
-            }}
-          />
-          <FaLinkedin
-            onClick={() => {
-              window.open('https://www.linkedin.com/in/makersmarx');
-            }}
-          />
-          <FaJs
-            onClick={() => {
-              window.open(
-                'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
-              );
-            }}
-          />
-          <FaReact
-            onClick={() => {
-              window.open('https://reactjs.org/');
-            }}
-          />
-        </div>
-      </IconContext.Provider>
     </div>
   );
 };
