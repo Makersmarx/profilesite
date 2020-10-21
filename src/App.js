@@ -4,7 +4,13 @@ import NavBar from './components/NavBar';
 import Section from './components/Section';
 import about from './about';
 import skillMe from './skillMe';
-import { FaGithub, FaLinkedin, FaJs, FaReact } from 'react-icons/fa';
+import {
+  FaGithub,
+  FaLinkedin,
+  FaJs,
+  FaReact,
+  FaEnvelope,
+} from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import './index.css';
 
@@ -26,6 +32,13 @@ class App extends React.Component {
           value={{ style: { fontSize: '30px', color: '#d6cfc6' } }}
         >
           <div className="icons">
+            <a
+              href="mailto:makersmarxs@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaEnvelope />
+            </a>
             <FaGithub
               onClick={() => {
                 window.open('https://github.com/Makersmarx');
